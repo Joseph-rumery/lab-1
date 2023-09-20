@@ -1,9 +1,11 @@
+
+
 /**
  * Fraction is a class that represents a rational number.
  * @author Ben Gaudreau
  * @version Sept. 12 2023
  */
-public class Fraction implements INumber<Fraction> {
+public class Fraction implements INumber<Fraction>, Comparable<Fraction> {
 	
 	private int numerator, denominator;
 	
@@ -143,5 +145,21 @@ public class Fraction implements INumber<Fraction> {
 		
 		return frequent;
 	}
-
+	
+	//changes 
+	
+	//boolean add method 
+	public boolean add(Fraction input) {
+		return true;
+	}
+	
+	//Fraction remove method
+	public Fraction remove(Fraction input) {
+		return input;
+	}
+	
+	//contains method 
+	public boolean contains(Fraction input) {
+		return true;
+	}
 }
